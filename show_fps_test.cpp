@@ -230,10 +230,10 @@ bool SetupFiltering(){
                 Commands.push_back(cRef);
                 state.push_back(0);
                 refCons.push_back(nb);
-                //voir s'il faut détruire nb
+                //Will delete the pointers later
                nbcmd++;}
             }
-
+     jSettings.close();
        }
     }
 
